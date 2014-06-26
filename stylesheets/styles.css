@@ -46,7 +46,7 @@ h1 {
 
 /* line 39, ../sass/styles.scss */
 p {
-  margin: 1em auto;
+  margin: 1em auto !important;
 }
 
 /* line 43, ../sass/styles.scss */
