@@ -24,11 +24,11 @@ body {
 }
 
 #lr-widget {
-  width: 285px;
+  width: 100%;
   margin: 0 auto;
+  .LR-box-wrapper {
+    width: 90% !important;
+    margin: 0 auto !important;
+  }
 }
 
-.LR-box-wrapper {
-  width: 90% !important;
-  margin: 0 auto !important;
-}
