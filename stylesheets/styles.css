@@ -33,7 +33,11 @@ body {
   width: 100%;
   margin: 0 auto;
 }
-/* line 29, ../sass/styles.scss */
+/* line 30, ../sass/styles.scss */
+#lr-widget .LR-content {
+  max-width: 100% !important;
+}
+/* line 33, ../sass/styles.scss */
 #lr-widget .LR-box-wrapper {
   width: 90% !important;
   margin: 0 auto !important;

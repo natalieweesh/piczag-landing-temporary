@@ -26,6 +26,10 @@ body {
 #lr-widget {
   width: 100%;
   margin: 0 auto;
+  
+  .LR-content {
+    max-width: 100% !important;  
+  }
   .LR-box-wrapper {
     width: 90% !important;
     margin: 0 auto !important;
