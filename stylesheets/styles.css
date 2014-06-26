@@ -26,19 +26,29 @@ body {
   -o-background-size: cover;
   background-size: cover;
   background-position: center center;
+  text-align: center;
 }
 
-/* line 26, ../sass/styles.scss */
+/* line 27, ../sass/styles.scss */
+p {
+  margin: 1em auto;
+}
+
+/* line 31, ../sass/styles.scss */
 #lr-widget {
   width: 100%;
   margin: 0 auto;
 }
-/* line 30, ../sass/styles.scss */
+/* line 35, ../sass/styles.scss */
 #lr-widget .LR-content {
   max-width: 100% !important;
 }
-/* line 33, ../sass/styles.scss */
+/* line 38, ../sass/styles.scss */
 #lr-widget .LR-box-wrapper {
   width: 90% !important;
   margin: 0 auto !important;
+}
+/* line 42, ../sass/styles.scss */
+#lr-widget input[type="email"].LR-sign-up-input {
+  width: 75% !important;
 }

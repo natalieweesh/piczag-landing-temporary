@@ -21,6 +21,11 @@ body {
   background-repeat: no-repeat;
   @include background-size(cover);
   background-position: center center;
+  text-align: center;
+}
+
+p {
+  margin: 1em auto;
 }
 
 #lr-widget {
@@ -33,6 +38,9 @@ body {
   .LR-box-wrapper {
     width: 90% !important;
     margin: 0 auto !important;
+  }
+  input[type="email"].LR-sign-up-input {
+    width: 75% !important;
   }
 }
 
