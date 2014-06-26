@@ -30,8 +30,12 @@ body {
 .content {
   display: table-cell;
   vertical-align: middle;
+  padding-bottom: 1em;
 }
 
+h1 {
+  margin-top: 0;
+}
 p {
   margin: 1em auto;
 }

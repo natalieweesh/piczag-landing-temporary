@@ -36,28 +36,34 @@ body {
 .content {
   display: table-cell;
   vertical-align: middle;
+  padding-bottom: 1em;
 }
 
-/* line 35, ../sass/styles.scss */
+/* line 36, ../sass/styles.scss */
+h1 {
+  margin-top: 0;
+}
+
+/* line 39, ../sass/styles.scss */
 p {
   margin: 1em auto;
 }
 
-/* line 39, ../sass/styles.scss */
+/* line 43, ../sass/styles.scss */
 #lr-widget {
   width: 100%;
   margin: 0 auto;
 }
-/* line 43, ../sass/styles.scss */
+/* line 47, ../sass/styles.scss */
 #lr-widget .LR-content {
   max-width: 100% !important;
 }
-/* line 46, ../sass/styles.scss */
+/* line 50, ../sass/styles.scss */
 #lr-widget .LR-box-wrapper {
   width: 90% !important;
   margin: 0 auto !important;
 }
-/* line 50, ../sass/styles.scss */
+/* line 54, ../sass/styles.scss */
 #lr-widget input[type="email"].LR-sign-up-input {
   width: 75% !important;
 }
