@@ -1,0 +1,22 @@
+/* line 1, ../sass/styles.scss */
+body, p, img {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: #fff;
+  font-family: 'Pathway Gothic One', calibri, arial, helvetica, sans-serif;
+  font-size: 35px;
+  text-shadow: 1px 1px 3px #000;
+  line-height: 1.2em;
+}
+
+/* line 12, ../sass/styles.scss */
+body {
+  background: #000;
+}
+
+/* line 16, ../sass/styles.scss */
+#lr-widget {
+  width: 285px;
+  margin: 0 auto;
+}
