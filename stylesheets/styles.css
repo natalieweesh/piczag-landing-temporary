@@ -38,32 +38,30 @@ body {
   vertical-align: middle;
   padding-bottom: 1em;
 }
-
-/* line 36, ../sass/styles.scss */
-h1 {
+/* line 34, ../sass/styles.scss */
+.content h1 {
   margin-top: 0;
 }
-
-/* line 39, ../sass/styles.scss */
-p {
-  margin: 1em auto !important;
+/* line 37, ../sass/styles.scss */
+.content p {
+  margin: 1em auto;
 }
 
-/* line 43, ../sass/styles.scss */
+/* line 44, ../sass/styles.scss */
 #lr-widget {
   width: 100%;
   margin: 0 auto;
 }
-/* line 47, ../sass/styles.scss */
+/* line 48, ../sass/styles.scss */
 #lr-widget .LR-content {
   max-width: 100% !important;
 }
-/* line 50, ../sass/styles.scss */
+/* line 51, ../sass/styles.scss */
 #lr-widget .LR-box-wrapper {
   width: 90% !important;
   margin: 0 auto !important;
 }
-/* line 54, ../sass/styles.scss */
+/* line 55, ../sass/styles.scss */
 #lr-widget input[type="email"].LR-sign-up-input {
   width: 75% !important;
 }
