@@ -33,3 +33,9 @@ body {
   width: 285px;
   margin: 0 auto;
 }
+
+/* line 31, ../sass/styles.scss */
+.LR-box-wrapper {
+  width: 90% !important;
+  margin: 0 auto !important;
+}
