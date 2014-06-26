@@ -27,28 +27,37 @@ body {
   background-size: cover;
   background-position: center center;
   text-align: center;
+  width: 100%;
+  height: 100%;
+  display: table;
 }
 
-/* line 27, ../sass/styles.scss */
+/* line 30, ../sass/styles.scss */
+.content {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* line 35, ../sass/styles.scss */
 p {
   margin: 1em auto;
 }
 
-/* line 31, ../sass/styles.scss */
+/* line 39, ../sass/styles.scss */
 #lr-widget {
   width: 100%;
   margin: 0 auto;
 }
-/* line 35, ../sass/styles.scss */
+/* line 43, ../sass/styles.scss */
 #lr-widget .LR-content {
   max-width: 100% !important;
 }
-/* line 38, ../sass/styles.scss */
+/* line 46, ../sass/styles.scss */
 #lr-widget .LR-box-wrapper {
   width: 90% !important;
   margin: 0 auto !important;
 }
-/* line 42, ../sass/styles.scss */
+/* line 50, ../sass/styles.scss */
 #lr-widget input[type="email"].LR-sign-up-input {
   width: 75% !important;
 }
