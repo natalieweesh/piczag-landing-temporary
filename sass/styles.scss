@@ -35,12 +35,13 @@ body {
   margin-top: 50px;
   background: rgba(255,255,255,0.5);
   padding: 1em;
+  text-align: center;
   h1 {
     line-height: 1em;
     margin-top: 0;
   }
   p {
-    margin: 0 auto;
+    margin: 1em auto;
   }
 }
 
@@ -48,7 +49,7 @@ body {
 
 #lr-widget {
   width: 100%;
-  margin: 0 auto;
+  margin: 0 auto 4em;
   position: relative;
   .LR-content {
     max-width: 100% !important;  
