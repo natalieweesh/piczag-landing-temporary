@@ -56,6 +56,7 @@ body {
 #lr-widget {
   width: 100%;
   margin: 0 auto;
+  position: relative;
 }
 /* line 53, ../sass/styles.scss */
 #lr-widget .LR-content {
