@@ -11,6 +11,7 @@ html, body, p, img {
   color: #fff;
   font-family: 'Arial', sans-serif;
   font-size: 26px;
+  font-weight: bold;
   text-shadow: 1px 1px 3px #000;
   line-height: 1.2em;
 }
@@ -30,9 +31,11 @@ body {
 .content {
   width: 35%;
   min-width: 200px;
-  float: right;
+  position: absolute;
+  top: 50%;
+  margin-top: -5em;
+  right: 0%;
   margin-right: 50px;
-  margin-top: 50px;
   background: rgba(255,255,255,0.5);
   padding: 1em;
   text-align: center;

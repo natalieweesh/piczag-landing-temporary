@@ -12,11 +12,12 @@ html, body, p, img {
   color: #fff;
   font-family: 'Arial', sans-serif;
   font-size: 26px;
+  font-weight: bold;
   text-shadow: 1px 1px 3px #000;
   line-height: 1.2em;
 }
 
-/* line 18, ../sass/styles.scss */
+/* line 19, ../sass/styles.scss */
 body {
   background: #000;
   background-image: url(../images/background.jpg);
@@ -32,47 +33,49 @@ body {
   display: table;
 }
 
-/* line 30, ../sass/styles.scss */
+/* line 31, ../sass/styles.scss */
 .content {
   width: 35%;
   min-width: 200px;
-  float: right;
+  position: absolute;
+  top: 50%;
+  margin-top: -5em;
+  right: 0%;
   margin-right: 50px;
-  margin-top: 50px;
   background: rgba(255, 255, 255, 0.5);
   padding: 1em;
   text-align: center;
 }
-/* line 39, ../sass/styles.scss */
+/* line 42, ../sass/styles.scss */
 .content h1 {
   line-height: 1em;
   margin-top: 0;
 }
-/* line 43, ../sass/styles.scss */
+/* line 46, ../sass/styles.scss */
 .content p {
   margin: 1em auto;
 }
 
-/* line 50, ../sass/styles.scss */
+/* line 53, ../sass/styles.scss */
 #lr-widget {
   width: 100%;
   margin: 0 auto 4em;
   position: relative;
 }
-/* line 54, ../sass/styles.scss */
+/* line 57, ../sass/styles.scss */
 #lr-widget .LR-content {
   max-width: 100% !important;
 }
-/* line 57, ../sass/styles.scss */
+/* line 60, ../sass/styles.scss */
 #lr-widget .LR-box-wrapper {
   width: 90% !important;
   margin: 0 auto !important;
 }
-/* line 61, ../sass/styles.scss */
+/* line 64, ../sass/styles.scss */
 #lr-widget input[type="email"].LR-sign-up-input {
   width: 75% !important;
 }
-/* line 64, ../sass/styles.scss */
+/* line 67, ../sass/styles.scss */
 #lr-widget input[type="submit"].LR-sign-up-submit {
   position: absolute;
 }
