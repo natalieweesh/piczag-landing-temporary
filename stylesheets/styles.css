@@ -10,8 +10,8 @@ html, body, p, img {
   padding: 0;
   border: 0;
   color: #fff;
-  font-family: 'Pathway Gothic One', calibri, arial, helvetica, sans-serif;
-  font-size: 35px;
+  font-family: 'Arial', sans-serif;
+  font-size: 30px;
   text-shadow: 1px 1px 3px #000;
   line-height: 1.2em;
 }
@@ -19,7 +19,7 @@ html, body, p, img {
 /* line 18, ../sass/styles.scss */
 body {
   background: #000;
-  background-image: url(../images/space.jpg);
+  background-image: url(../images/background.jpg);
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -34,35 +34,39 @@ body {
 
 /* line 30, ../sass/styles.scss */
 .content {
-  display: table-cell;
-  vertical-align: middle;
-  padding-bottom: 1em;
+  width: 35%;
+  min-width: 200px;
+  float: right;
+  margin-right: 50px;
+  margin-top: 50px;
+  background: rgba(255, 255, 255, 0.7);
+  padding: 1em;
 }
-/* line 34, ../sass/styles.scss */
+/* line 38, ../sass/styles.scss */
 .content h1 {
   line-height: 1em;
   margin-top: 0;
 }
-/* line 38, ../sass/styles.scss */
+/* line 42, ../sass/styles.scss */
 .content p {
   margin: 1em auto;
 }
 
-/* line 45, ../sass/styles.scss */
+/* line 49, ../sass/styles.scss */
 #lr-widget {
   width: 100%;
   margin: 0 auto;
 }
-/* line 49, ../sass/styles.scss */
+/* line 53, ../sass/styles.scss */
 #lr-widget .LR-content {
   max-width: 100% !important;
 }
-/* line 52, ../sass/styles.scss */
+/* line 56, ../sass/styles.scss */
 #lr-widget .LR-box-wrapper {
   width: 90% !important;
   margin: 0 auto !important;
 }
-/* line 56, ../sass/styles.scss */
+/* line 60, ../sass/styles.scss */
 #lr-widget input[type="email"].LR-sign-up-input {
   width: 75% !important;
 }
