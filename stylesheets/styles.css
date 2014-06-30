@@ -20,7 +20,7 @@ html, body, p, img {
 /* line 19, ../sass/styles.scss */
 body {
   background: #000;
-  background-image: url(../images/background.jpg);
+  background-image: url(../images/background_small.jpg);
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
