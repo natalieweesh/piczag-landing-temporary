@@ -11,7 +11,7 @@ html, body, p, img {
   border: 0;
   color: #fff;
   font-family: 'Arial', sans-serif;
-  font-size: 30px;
+  font-size: 26px;
   text-shadow: 1px 1px 3px #000;
   line-height: 1.2em;
 }
@@ -39,7 +39,7 @@ body {
   float: right;
   margin-right: 50px;
   margin-top: 50px;
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 0.5);
   padding: 1em;
 }
 /* line 38, ../sass/styles.scss */
@@ -49,7 +49,7 @@ body {
 }
 /* line 42, ../sass/styles.scss */
 .content p {
-  margin: 1em auto;
+  margin: 0 auto;
 }
 
 /* line 49, ../sass/styles.scss */
