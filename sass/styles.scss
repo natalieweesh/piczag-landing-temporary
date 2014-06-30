@@ -60,5 +60,8 @@ body {
   input[type="email"].LR-sign-up-input {
     width: 75% !important;
   }
+  input[type="submit"].LR-sign-up-submit {
+    position: absolute;
+  }
 }
 

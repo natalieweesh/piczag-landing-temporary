@@ -71,3 +71,7 @@ body {
 #lr-widget input[type="email"].LR-sign-up-input {
   width: 75% !important;
 }
+/* line 63, ../sass/styles.scss */
+#lr-widget input[type="submit"].LR-sign-up-submit {
+  position: absolute;
+}
