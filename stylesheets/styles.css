@@ -83,9 +83,10 @@ body {
   /* line 73, ../sass/styles.scss */
   .content {
     top: 30%;
+    margin-right: 25px;
   }
 
-  /* line 76, ../sass/styles.scss */
+  /* line 77, ../sass/styles.scss */
   p {
     font-size: 18px;
   }
