@@ -78,3 +78,15 @@ body {
 #lr-widget input[type="submit"].LR-sign-up-submit {
   position: absolute;
 }
+
+@media (max-width: 480px) {
+  /* line 73, ../sass/styles.scss */
+  .content {
+    top: 30%;
+  }
+
+  /* line 76, ../sass/styles.scss */
+  p {
+    font-size: 18px;
+  }
+}

@@ -68,3 +68,12 @@ body {
   }
 }
 
+
+@media (max-width: 480px) {
+  .content {
+    top: 30%;
+  }
+  p {
+    font-size: 18px;
+  }
+}
