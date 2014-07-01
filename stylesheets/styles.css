@@ -98,17 +98,13 @@ body {
     margin: 0.5em auto;
   }
 
-  /* line 88, ../sass/styles.scss */
-  #lr-widget {
-    margin: 0 auto 2.5em;
-  }
-  /* line 90, ../sass/styles.scss */
+  /* line 89, ../sass/styles.scss */
   #lr-widget input[type="email"].LR-sign-up-input {
     width: 65% !important;
     padding: 8px !important;
     font-size: 13px;
   }
-  /* line 95, ../sass/styles.scss */
+  /* line 94, ../sass/styles.scss */
   #lr-widget input[type="submit"].LR-sign-up-submit {
     font-size: 13px;
     min-width: 40px;
