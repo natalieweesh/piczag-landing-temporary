@@ -88,19 +88,23 @@ body {
     margin-top: 0;
     min-width: 150px;
   }
-
-  /* line 80, ../sass/styles.scss */
-  p {
+  /* line 79, ../sass/styles.scss */
+  .content p {
     font-size: 18px;
+    margin: 0.5em auto;
   }
 
-  /* line 84, ../sass/styles.scss */
+  /* line 85, ../sass/styles.scss */
+  #lr-widget {
+    margin: 0 auto 2.5em;
+  }
+  /* line 87, ../sass/styles.scss */
   #lr-widget input[type="email"].LR-sign-up-input {
     width: 65% !important;
     padding: 8px !important;
     font-size: 13px;
   }
-  /* line 89, ../sass/styles.scss */
+  /* line 92, ../sass/styles.scss */
   #lr-widget input[type="submit"].LR-sign-up-submit {
     font-size: 13px;
     min-width: 40px;
