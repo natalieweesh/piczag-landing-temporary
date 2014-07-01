@@ -75,8 +75,21 @@ body {
     margin-right: 0;
     right: 25px;
     margin-top: 0;
+    min-width: 150px;
   }
   p {
     font-size: 18px;
+  }
+  #lr-widget {
+    input[type="email"].LR-sign-up-input {
+      width: 65% !important;
+      padding: 8px !important;
+      font-size: 13px;
+    }
+    input[type="submit"].LR-sign-up-submit {
+      font-size: 13px;
+      min-width: 40px;
+      padding: 8px 1px !important;
+    }
   }
 }

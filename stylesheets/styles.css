@@ -86,10 +86,24 @@ body {
     margin-right: 0;
     right: 25px;
     margin-top: 0;
+    min-width: 150px;
   }
 
-  /* line 79, ../sass/styles.scss */
+  /* line 80, ../sass/styles.scss */
   p {
     font-size: 18px;
+  }
+
+  /* line 84, ../sass/styles.scss */
+  #lr-widget input[type="email"].LR-sign-up-input {
+    width: 65% !important;
+    padding: 8px !important;
+    font-size: 13px;
+  }
+  /* line 89, ../sass/styles.scss */
+  #lr-widget input[type="submit"].LR-sign-up-submit {
+    font-size: 13px;
+    min-width: 40px;
+    padding: 8px 1px !important;
   }
 }
