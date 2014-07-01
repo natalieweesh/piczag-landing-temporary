@@ -51,8 +51,11 @@ body {
 
 #lr-widget {
   width: 100%;
-  margin: 0 auto 4em;
+  margin: 0 auto;
   position: relative;
+  #content {
+    position: relative;
+  }
   .LR-content {
     max-width: 100% !important;  
   }
