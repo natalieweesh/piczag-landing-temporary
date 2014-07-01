@@ -8,11 +8,10 @@ html, body, p, img {
   margin: 0;
   padding: 0;
   border: 0;
-  color: #fff;
+  color: #000;
   font-family: 'Arial', sans-serif;
   font-size: 26px;
   font-weight: bold;
-  text-shadow: 1px 1px 3px #000;
   line-height: 1.2em;
 }
 
@@ -36,8 +35,8 @@ body {
   margin-top: -5em;
   right: 0%;
   margin-right: 50px;
-  background: rgba(255,255,255,0.5);
-  padding: 1em;
+  background: rgba(0,0,0,0.25);
+  padding: 0.25em;
   text-align: center;
   h1 {
     line-height: 1em;
