@@ -82,11 +82,13 @@ body {
 @media (max-width: 480px) {
   /* line 73, ../sass/styles.scss */
   .content {
-    top: 30%;
-    margin-right: 25px;
+    top: 25px;
+    margin-right: 0;
+    right: 25px;
+    margin-top: 0;
   }
 
-  /* line 77, ../sass/styles.scss */
+  /* line 79, ../sass/styles.scss */
   p {
     font-size: 18px;
   }
